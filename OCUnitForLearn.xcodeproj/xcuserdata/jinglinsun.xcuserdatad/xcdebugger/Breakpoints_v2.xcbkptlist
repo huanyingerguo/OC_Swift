@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OCUnitForLearn/UI/Person2.swift"
+            timestampString = "619530491.988824"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "ageIncremnet()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OCUnitForLearn.Person.ageIncremnet() -&gt; ()"
+                  moduleName = "OCUnitForLearn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jinglinsun/Documents/Allcode/Git/Algrithm/OCUnitForLearn/OCUnitForLearn/UI/Person2.swift"
+                  timestampString = "619529726.934164"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OCCorelib.Person.ageIncremnet() -&gt; ()"
+                  moduleName = "libOCCorelib.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jinglinsun/Documents/Allcode/Git/Algrithm/OCUnitForLearn/OCUnitForLearn/UI/Person2.swift"
+                  timestampString = "619529727.945662"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "57">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
