@@ -24,6 +24,7 @@
 		F900A90024ED232B00F51DDE /* libOCCorelib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F900A8F324ED22F800F51DDE /* libOCCorelib.dylib */; };
 		F900A90724ED454200F51DDE /* Person2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F900A90624ED454200F51DDE /* Person2.swift */; };
 		F900A90824ED454200F51DDE /* Person2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F900A90624ED454200F51DDE /* Person2.swift */; };
+		F900A90B24ED4A3F00F51DDE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F900A90A24ED4A3F00F51DDE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		F900A90124ED23C800F51DDE /* OCUnitForLearn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCUnitForLearn-Bridging-Header.h"; sourceTree = "<group>"; };
 		F900A90224ED23C800F51DDE /* OCCorelib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCCorelib-Bridging-Header.h"; sourceTree = "<group>"; };
 		F900A90624ED454200F51DDE /* Person2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person2.swift; sourceTree = "<group>"; };
+		F900A90A24ED4A3F00F51DDE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		F900A85224ED1A9700F51DDE = {
 			isa = PBXGroup;
 			children = (
+				F900A90A24ED4A3F00F51DDE /* README.md */,
 				F900A85D24ED1A9700F51DDE /* OCUnitForLearn */,
 				F900A87424ED1A9900F51DDE /* OCUnitForLearnTests */,
 				F900A87F24ED1A9900F51DDE /* OCUnitForLearnUITests */,
@@ -149,6 +152,7 @@
 		F900A85D24ED1A9700F51DDE /* OCUnitForLearn */ = {
 			isa = PBXGroup;
 			children = (
+				F900A90924ED4A1500F51DDE /* Bridge */,
 				F900A8E924ED1FE400F51DDE /* Biz */,
 				F900A8E824ED1FDF00F51DDE /* UI */,
 				F900A85E24ED1A9700F51DDE /* AppDelegate.h */,
@@ -160,8 +164,6 @@
 				F900A86924ED1A9800F51DDE /* Info.plist */,
 				F900A86A24ED1A9800F51DDE /* main.m */,
 				F900A86C24ED1A9800F51DDE /* OCUnitForLearn.entitlements */,
-				F900A90124ED23C800F51DDE /* OCUnitForLearn-Bridging-Header.h */,
-				F900A90224ED23C800F51DDE /* OCCorelib-Bridging-Header.h */,
 			);
 			path = OCUnitForLearn;
 			sourceTree = "<group>";
@@ -224,6 +226,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F900A90924ED4A1500F51DDE /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				F900A90124ED23C800F51DDE /* OCUnitForLearn-Bridging-Header.h */,
+				F900A90224ED23C800F51DDE /* OCCorelib-Bridging-Header.h */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,6 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F900A90B24ED4A3F00F51DDE /* README.md in Resources */,
 				F900A86524ED1A9800F51DDE /* Assets.xcassets in Resources */,
 				F900A86824ED1A9800F51DDE /* Main.storyboard in Resources */,
 			);
